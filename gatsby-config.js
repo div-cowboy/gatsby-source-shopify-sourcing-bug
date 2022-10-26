@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -14,6 +18,18 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+
+    {
+      resolve: "gatsby-source-shopify",
+      options: {
+        password: process.env.SHOPIFY_APP_PASSWORD,
+        storeUrl: process.env.GATSBY_MYSHOPIFY_URL,
+        shopifyConnections: ["collections"],
+        // salesChannel: process.env.SHOPIFY_APP_ID, // Optional but recommended
+      },
+    },
+    "gatsby-plugin-image",
+
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

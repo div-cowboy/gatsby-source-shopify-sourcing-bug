@@ -3856,6 +3856,11 @@ dotenv-expand@^5.1.0:
   resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-5.1.0.tgz#3fbaf020bfd794884072ea26b1e9791d45a629f0"
   integrity sha512-YXQl1DSa4/PQyRfgrv6aoNjhasp/p4qs9FjJ4q4cQk+8m4r6k4ZSiEyytKG8f8W9gi8WsQtIObNmKd+tMzNTmA==
 
+dotenv@^16.0.3:
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
+  integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
+
 dotenv@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-7.0.0.tgz#a2be3cd52736673206e8a85fb5210eea29628e7c"
@@ -5036,6 +5041,19 @@ gatsby-source-filesystem@^4.24.0:
     pretty-bytes "^5.4.1"
     valid-url "^1.0.9"
     xstate "4.32.1"
+
+gatsby-source-shopify@^7.13.0:
+  version "7.13.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-shopify/-/gatsby-source-shopify-7.13.0.tgz#428de18b20756be56aaafc9d7f8e8a9d51e0b706"
+  integrity sha512-NNfbdhVQlswCZ+7sjdCx7XV/HP1kwYSGdqr64vQkljLMT6TfWCO8sjZDp7ea42Uu4whmwK8KevHGfxvgDZTdbg==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    gatsby-core-utils "^3.24.0"
+    gatsby-plugin-utils "^3.18.0"
+    gatsby-source-filesystem "^4.24.0"
+    node-fetch "^2.6.7"
+    sharp "^0.30.7"
+    shift-left "^0.1.5"
 
 gatsby-telemetry@^3.24.0:
   version "3.24.0"
@@ -8285,6 +8303,11 @@ shell-quote@^1.7.3:
   version "1.7.4"
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.4.tgz#33fe15dee71ab2a81fcbd3a52106c5cfb9fb75d8"
   integrity sha512-8o/QEhSSRb1a5i7TFR0iM4G16Z0vYB2OQVs4G3aAFXjn3T6yEx8AZxy1PgDF7I00LZHYA3WxaSYIf5e5sAX8Rw==
+
+shift-left@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/shift-left/-/shift-left-0.1.5.tgz#4a61a9d0412b1b32f9abbd97f72466c9c74a6be1"
+  integrity sha512-55d8QaP1YmuL1D52fhgq8CT1tXksM/2WPZ6980RtkMbl0Cze++kuJy50GLMnXwostk/YG9hasaJmP3r+d3yUtQ==
 
 side-channel@^1.0.4:
   version "1.0.4"
